@@ -1,0 +1,254 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+      font-family: "Alata", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      /* background-color: darkslategrey; */
+    }
+   a{
+      text-decoration: none;  
+      /* color:  #fff; */
+      }
+/* #1A284E */
+div .p-1{
+background-color: #1e1e26;;
+}
+
+
+section > div > div > .mb-4{
+font-family: "Poppins", serif;
+font-weight: 700;
+font-style: normal;
+}
+
+div > section > div > div > h3 .tar_name {
+color: #651FFF;
+} 
+
+div .wrap{
+background-color: #EBE5FA;
+padding: 85px 0px;
+}
+
+section > div >div:nth-child(2) input,
+section > div >div:nth-child(2) select{
+margin-left: 40px;
+padding: 10px 30px;
+border-radius: 10px;
+outline: none;
+border: none;
+}
+
+section > div >div:nth-child(2) .loc:hover{
+box-shadow: 0px 4px 20px 0px #a5a2a2;
+}
+
+            section > div >div:nth-child(2) .Button {
+            margin: 20px;
+            padding: 10px 28px;
+            border-radius: 20px;
+            outline: none;
+            border: none;
+            background-color: #651FFF;
+            color: #fff;
+            }
+
+section > div >div:nth-child(2) .Button:hover{
+background-color: #651FFF;
+box-shadow: 0px 4px 20px 0px #651FFF;
+}
+
+/* Using media Query */
+
+@media screen and (max-width:999px) {
+
+body{
+  flex-wrap: nowrap;
+}
+
+
+.wrap div > div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  gap:25px;
+}
+
+div > input{
+  width: 60%;
+}
+
+ h3 > span >span {
+  color: #651FFF;
+}
+
+button{
+  width: 30%;
+}
+
+.hide-on-mobile{
+  display: none;
+}
+
+/* .wrap div > div> h3> span{
+  display: flex; 
+ flex-direction: column;
+} */
+
+}
+
+.title{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: #0B0D0E;
+}
+
+.info{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #651FFF
+}
+.purple{
+  width: 40%;
+  background-color: #651FFF;
+  color: #fff;
+}
+.purple:hover{
+  background-color: #651FFF;
+  color: #fff;
+  box-shadow: 0px 5px 20px 0px #651FFF;
+}
+
+.small_header{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.labeled{
+background-color: #eceef0;
+}
+.sent_details{
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-size: 18px;
+  background-color: #FBBA33;
+}
+
+/* Wallet */
+
+.wallet_box{
+  padding: 10px; 
+  width: 80%;
+  background-color:#426666;
+  border-radius: 15px;
+  color: #fff;
+}
+
+.wallet_color{
+  background-color: #dadaf6;
+  border-radius: 10px;
+  
+}
+.content_center{
+  padding: 0px 70px;
+}
+
+section .mt-5{
+  border-radius: 20px;
+}
+
+section .border >div:nth-child(2){
+  background-color: #512e9c;
+  border-radius: 20px;
+}
+
+section >div > div:nth-child(2) div > button{
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+div > div > div:nth-child(1) h5,
+div > div > div:nth-child(1) .link,
+section >div >div:nth-child(2) button{
+  font-family: "Poppins",serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+}
+
+div > div > div:nth-child(1) .link{
+  color: #651FFF; 
+}
+
+div > div >h1{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 30px;
+}
+
+header > div:nth-child(2) div > span{
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+
+section >div > div:nth-child(1) h2{
+  font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+section >div > div:nth-child(1) .zerotag{
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+}
+
+section >div > div:nth-child(2) h4{
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff;
+}
+
+.addMoney:disabled{
+  background-color: rgb(244, 244, 94);
+}
+.error{
+  color: #FF3797;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  word-spacing: 8px;
+  letter-spacing: 2px;
+  box-shadow:0px 4px 20px 0px #651FFF;
+}
+div #vist{
+  width: 50%;
+  padding: 12px 22px;
+  background-color: #651FFF;
+  color: #fff;
+  border-radius: 50px;
+}
+
+body {
+  padding-top: 100px; /* Adjust this based on your navbar height */
+}

@@ -1,0 +1,176 @@
+.offer-image {
+    width: 100%; /* Makes the image responsive to the column */
+    height: 200px; /* Adjust this to control the height */
+    object-fit: cover; /* Ensures the image is cropped properly */
+    border-radius: 130px; /* Adds smooth rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for styling */
+    margin-bottom: 10px;
+  }
+
+  div .align-items-center h2{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #0B0D0E;
+    font-size: 24px;
+  }
+
+  .booking{
+    color: #651FFF; 
+  }
+
+  .shadow-sm img{
+    border-radius: 15px;
+  }
+
+
+  .carousel-item {
+    padding: 20px;
+}
+
+
+.carousel-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border: none;
+  box-shadow: none; 
+}
+
+
+.carousel-card {
+  background: white;  /* Ensures a clean white background */
+  border-radius: 12px; /* Smooth rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  padding: 15px; /* Adds spacing inside the card */
+  margin: 10px; /* Space between cards */
+  
+}
+  
+.carousel-card img {
+  border-radius: 20px; /* Slightly rounded image corners */
+   padding: 8px; /* White spacing inside the card */
+}
+
+.carouselColor {
+  background: linear-gradient(180deg, #e6e6fa 0%, #ffffff 100%) !important;
+  padding: 20px;
+  border-radius: 10px;
+  padding: 30px 0; /* Adds spacing above and below */
+}
+
+/* Bus Seats  */
+
+.seat-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.seat {
+  padding: 10px 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #e0f7fa;
+  cursor: pointer;
+}
+.seat.unavailable {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.seat:hover {
+  background-color: #007bff;
+  color: white;
+}
+.parent-container {
+  display: block; /* Ensure rows stack naturally */
+}
+.seat-row:nth-of-type(2) {
+  margin-bottom: 20px; /* This pushes row 3 down */
+}
+.seat-row:first-of-type,
+.seat-row:nth-of-type(2) {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.seat-row:nth-of-type(3) {
+    margin-top: 20px !important; /* Adjust as needed */
+}
+
+/* UserHome */
+
+div .sidebar{
+  display: flex;
+  gap: 5px;
+}
+div > div .select{
+  color: #651FFF ;
+}
+.Profile_NN{  
+  display: flex;
+ flex-direction: column;
+}
+
+                                        /* mybooking */
+.sidebar{
+  min-height:100vh;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 20px;
+}
+.visulation{
+  /* min-height: 100vh; */
+  display: flex;
+}
+
+.sidebar .menu{
+    display: block;
+    margin-left: 10px;  
+    cursor: pointer;
+    gap: 10px;
+}
+.sidebar .new-chat{
+  justify-content: space-between;
+  margin-top: 10px;
+  display: flex;
+  padding: 10px 15px;
+  align-items: center; 
+  gap: 10px;
+  cursor: pointer;
+  background-color: antiquewhite;
+  font-size: 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/* cardcomponent */
+
+.cardlayout{
+  padding: 20px;
+   background-color: white;
+   border: 1px solid black;
+   border-radius: 20px;
+   max-width: 80%;
+   margin-left: 10%;
+   margin-top: -4%;
+   
+}
+
+.offercard{
+  background-color: blue;
+  border: 1px solid red;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  
+}
+.offername{
+  font-size: 22px;
+  color: white;
+}

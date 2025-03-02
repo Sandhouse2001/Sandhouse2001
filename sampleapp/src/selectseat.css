@@ -1,0 +1,13 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bus_Seats{
+    margin: 20px;
+    padding: 50px;
+    width: 60%;
+    height: 300px;
+    background-color: #E0F7FA;
+}
